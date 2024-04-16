@@ -6,6 +6,25 @@
   height: 40vmin;
   pointer-events: none;
 }
+/* For mobile devices (less than 768px wide) */
+.mobile-image {
+  display: block;
+}
+
+/* For desktop devices (768px wide and above) */
+.desktop-image {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .mobile-image {
+      display: none;
+  }
+  
+  .desktop-image {
+      display: block;
+  }
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
