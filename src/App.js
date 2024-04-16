@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App">
        {/* For mobile view */}
-       <img src={mobile} alt="Mobile Image" className="mobile-image" />
+       <img src={mobile} alt="Mob" className="mobile-image" />
             
             {/* For desktop view */}
-            <img src={websiteb} alt="Desktop Image" className="desktop-image" />
+            <img src={websiteb} alt="Des" className="desktop-image" />
     </div>
   );
 }
