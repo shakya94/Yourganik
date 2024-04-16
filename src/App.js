@@ -1,12 +1,13 @@
 
 import './App.css';
-import coming from './Images/coming.png';
+import website from './Images/website.png';
+
 
 
 function App() {
   return (
     <div className="App">
-      <img src={coming} height="800" width="1000" alt="your"/>
+      <img src={website} alt="your"/>
     </div>
   );
 }
